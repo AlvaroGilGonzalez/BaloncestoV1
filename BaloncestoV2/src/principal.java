@@ -19,7 +19,7 @@ public class principal {
 		jugadores.add(new Jugador("Gerard","Moreno Garrido","15364557K",20,3,"alero"));
 		
 		//Añadimos datos de partidos a los distintos jugadores utilizando la funcion que hemos creado
-		jugadores.get(0).cargarPartidos();
+		/*jugadores.get(0).cargarPartidos();
 		jugadores.get(1).cargarPartidos();
 		jugadores.get(1).cargarPartidos();
 		jugadores.get(2).cargarPartidos();
@@ -28,8 +28,8 @@ public class principal {
 		jugadores.get(5).cargarPartidos();
 		jugadores.get(6).cargarPartidos();
 		jugadores.get(7).cargarPartidos();
-		//jugadores.get(8).cargarPartidos();
-		jugadores.get(9).cargarPartidos();
+		jugadores.get(8).cargarPartidos();
+		jugadores.get(9).cargarPartidos();*/
 		
 		//Datos necesarios para crear objetos de tipo socio, trabajador o jugador
 		Scanner input=new Scanner (System.in);
