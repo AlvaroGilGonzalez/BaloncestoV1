@@ -1,6 +1,12 @@
+package ProgramaPrincipal;
 //Realizado por Alvaro Gil Gonzalez 25/03/2022
 import java.util.ArrayList;
 import java.util.Scanner;
+import ClasesBaloncesto.DatosPartidoJugado;
+import ClasesBaloncesto.Jugador;
+import ClasesBaloncesto.Persona;
+import ClasesBaloncesto.Socio;
+import ClasesBaloncesto.Trabajador;
 
 public class main {
 	

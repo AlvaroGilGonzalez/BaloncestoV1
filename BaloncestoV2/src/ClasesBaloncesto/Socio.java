@@ -1,3 +1,4 @@
+package ClasesBaloncesto;
 //Realizado por Alvaro Gil Gonzalez 25/03/2022
 public class Socio extends Persona {
 	

@@ -1,3 +1,4 @@
+package ClasesBaloncesto;
 /*En esta clase guardamos todos los datos que se deben almacenar cada vez que vamos a guardar un partido nuevo para un objeto jugador*/
 //Realizado por Alvaro Gil Gonzalez 25/03/2022
 public class DatosPartidoJugado {
