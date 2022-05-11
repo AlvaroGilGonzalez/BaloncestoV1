@@ -1,4 +1,4 @@
-package ClasesBaloncesto;
+package MiembrosBaloncesto;
 
 public class Persona {
 	
