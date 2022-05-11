@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class principal {
+public class main {
 	
 	public static void main (String args[]) {
 		//Creamos un arrayList de jugadores y añadimos varios a el para poder hacer comprobaciones
