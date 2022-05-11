@@ -27,9 +27,7 @@ public class principal {
 		jugadores.get(4).cargarPartidos();
 		jugadores.get(5).cargarPartidos();
 		jugadores.get(6).cargarPartidos();
-		jugadores.get(7).cargarPartidos();
-		jugadores.get(8).cargarPartidos();
-		//jugadores.get(9).cargarPartidos();
+		
 		
 		//Datos necesarios para crear objetos de tipo socio, trabajador o jugador
 		Scanner input=new Scanner (System.in);
