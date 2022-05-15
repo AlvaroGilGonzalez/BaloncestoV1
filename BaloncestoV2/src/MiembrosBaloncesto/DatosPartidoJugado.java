@@ -3,7 +3,7 @@ package MiembrosBaloncesto;
 //Realizado por Alvaro Gil Gonzalez 25/03/2022
 public class DatosPartidoJugado {
 	
-	//Atributos del objeto
+	//Atributos del objet
 	private int numeroPartido;
 	private String nombreRival;
 	private double minutosJugados;
