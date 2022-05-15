@@ -13,7 +13,7 @@ public class DatosPartidoJugado {
 	private int tapones;
 	private double valoracionObtenida;
 	
-	//Metodo constructor por parametros
+	//Metodo constructor por parametro
 	public DatosPartidoJugado(int numeroPartido, String nombreRival, double minutosJugados, int puntosConseguidos,
 			int rebotes, int asistencias, int tapones, double valoracionObtenida) {
 		this.numeroPartido = numeroPartido;
