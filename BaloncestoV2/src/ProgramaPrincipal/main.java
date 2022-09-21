@@ -9,7 +9,7 @@ import MiembrosBaloncesto.Persona;
 import MiembrosBaloncesto.Socio;
 import MiembrosBaloncesto.Trabajador;
 
-//prueba comentario
+//prueba comentario2
 public class main {
 	
 	public static void main (String args[]) {
