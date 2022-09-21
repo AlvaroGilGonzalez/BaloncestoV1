@@ -9,10 +9,11 @@ import MiembrosBaloncesto.Persona;
 import MiembrosBaloncesto.Socio;
 import MiembrosBaloncesto.Trabajador;
 
+//prueba comentario
 public class main {
 	
 	public static void main (String args[]) {
-		//Creamos un arrayList de jugadores y añadimos varios a el para poder hacer comprobaciones
+		//Creamos un arrayList de jugadores y aï¿½adimos varios a el para poder hacer comprobaciones
 		ArrayList<Jugador> jugadores=new ArrayList<Jugador>();
 		jugadores.add(new Jugador("Alvaro","Gil Gonzalez","56565656f",20,8,"pivot"));
 		jugadores.add(new Jugador("Jose","Ruiz Santana","23243534C",20,6,"alero"));
@@ -25,7 +26,7 @@ public class main {
 		jugadores.add(new Jugador("Fernando","Concepcion Hernandez","34476857M",20,7,"alero"));
 		//jugadores.add(new Jugador("Gerard","Moreno Garrido","15364557K",20,3,"alero"));
 		
-		//Añadimos datos de partidos a los distintos jugadores utilizando la funcion que hemos creado
+		//Aï¿½adimos datos de partidos a los distintos jugadores utilizando la funcion que hemos creado
 		jugadores.get(0).cargarPartidos();
 		jugadores.get(1).cargarPartidos();
 		jugadores.get(1).cargarPartidos();
@@ -54,11 +55,11 @@ public class main {
 			System.out.println("1.Introducir un nuevo socio");
 			System.out.println("2.Introducir un nuevo Trabajador");
 			System.out.println("3.Introducir un nuevo Jugador");
-			System.out.println("4.Añadir informacion del partido de algun jugador");
+			System.out.println("4.Aï¿½adir informacion del partido de algun jugador");
 			System.out.println("5.Mostrar los partidos que ha jugado un jugador");
-			//A partir de este punto encontramos las nuevas opciones del menu añadidas en jugadores V2
-			System.out.println("6.El dorsal del jugador que más puntos ha conseguido durante temporada.");
-			System.out.println("7.El dorsal del jugador que más partidos ha sido convocado durante temporada.");
+			//A partir de este punto encontramos las nuevas opciones del menu aï¿½adidas en jugadores V2
+			System.out.println("6.El dorsal del jugador que mï¿½s puntos ha conseguido durante temporada.");
+			System.out.println("7.El dorsal del jugador que mï¿½s partidos ha sido convocado durante temporada.");
 			System.out.println("8.Para un determinado jugador relacion de partidos convocados y valoracion en cada partido");
 			System.out.println("9.Para un jugador cual fue el partido con mayor valoracion obtenida");
 			System.out.println("10.Salir del programa");
@@ -76,7 +77,7 @@ public class main {
 				apellidosSocio=input.nextLine();
 				System.out.println("Introduzca el dni del nuevo socio");
 				dniSocio=input.nextLine();
-				System.out.println("Introduzca la cuota que pagará el nuevo socio");
+				System.out.println("Introduzca la cuota que pagarï¿½ el nuevo socio");
 				cuotaSocio=input.nextDouble();
 				Socio socio1=new Socio(nombreSocio,apellidosSocio,dniSocio,cuotaSocio);
 				break;
@@ -98,7 +99,7 @@ public class main {
 				break;
 			}
 			
-			//Creamos un nuevo jugador y lo añadimos al arraylist jugadores
+			//Creamos un nuevo jugador y lo aï¿½adimos al arraylist jugadores
 			case 3:{
 				System.out.println("Introduzca el nombre del nuevo jugador");
 				nombreJugador=input.nextLine();
@@ -117,7 +118,7 @@ public class main {
 				break;
 			}
 			
-			//Seleccionamos el dorsal de un jugador y le añadimos informacion sobre un partido que ha jugado
+			//Seleccionamos el dorsal de un jugador y le aï¿½adimos informacion sobre un partido que ha jugado
 			case 4:{
 				System.out.println("Elija el dorsal del jugador sobre que quiera almacenar informacion referente a un partido");
 				for(int i=0;i<jugadores.size();i++){
@@ -169,7 +170,7 @@ public class main {
 				break;
 			}
 			
-			//Mostramos el nombre y el dorsal del jugador que más puntos ha conseguido durante temporada
+			//Mostramos el nombre y el dorsal del jugador que mï¿½s puntos ha conseguido durante temporada
 			case 6:{
 				int dorsalMasPuntos=0,puntosTemporada,maximosPuntos=0;
 				String nombre = null;
